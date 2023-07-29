@@ -1,0 +1,74 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.cabecalho__titulo {
+    color: var(--color-tags-title-button-footer);
+    font-family: var(--fonte-principal);
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.cabecalho__link {
+    background: var(--color-tags-title-button-footer);
+    font-family: var(--fonte-principal);
+    border-radius: 28px;
+    font-weight: 700;
+    padding: 1em 1.5em;
+    text-align: center;
+}
+
+.cabecalho__link:hover {
+    background-color: var(--color-hover-button-header);
+}
+
+/* Area banner hero */
+
+.banner {
+    padding: 1em;
+}
+
+.banner__titulo {
+    color: var(--color-tags-title-button-footer);
+    font-family: var(--fonte-principal);
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.banner__titulo,
+.banner__texto {
+    margin: 0.5em 0;
+}
+
+.banner__texto {
+    font-family: var(--fonte-principal);
+    color: var(--color-p);
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 2em;
+}
+
+.link__hero {
+    background: var(--color-gradiente-principal);
+    font-family: var(--fonte-principal);
+    border-radius: 31.5px;
+    font-weight: 700;
+    padding: 1em 2em;
+    width: 110px;
+    text-align: center;
+}
+
+.link__hero:hover {
+    background: var(--color-gradiente-principal);
+}
+
+.hero__imagem {
+    background: url(/img/image-removebg-preview.svg) no-repeat;
+    background-position: center;
+    background-size: 60%;
+    margin-top: 4em;
+    padding: 4em;
+}
