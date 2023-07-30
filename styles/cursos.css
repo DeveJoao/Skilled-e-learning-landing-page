@@ -1,0 +1,62 @@
+.container-dos-cursos {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-principal);
+    background: var(--color-gradiente-do-cards);
+}
+
+.card__curso,
+.card__chamada {
+    border-radius: 10px;
+    background: var(--color-barnco);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.card__chamada {
+    background: var(--color-gradiente-principal);
+    border-radius: 10px;
+    padding: 2em;
+    margin: 1em;
+    margin-bottom: 1.5em;
+}
+
+.card__chamada h2 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    color: var(--color-barnco);
+}
+
+.card__curso {
+    margin: 1em;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.card__titulo {
+    color: var(--color-tags-title-button-footer);
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0.5em 0;
+}
+
+.card__curso p {
+    color: var(--color-p);
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0.5em 0;
+}
+
+.crad__link {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none;
+    color: var(--color-link-card);
+}
+
+.card__curso__imagem {
+    position: relative;
+    bottom: 50px;
+}

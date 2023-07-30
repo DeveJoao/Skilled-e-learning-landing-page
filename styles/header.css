@@ -64,11 +64,3 @@
 .link__hero:hover {
     background: var(--color-gradiente-principal);
 }
-
-.hero__imagem {
-    background: url(/img/image-removebg-preview.svg) no-repeat;
-    background-position: center;
-    background-size: 60%;
-    margin-top: 4em;
-    padding: 4em;
-}
