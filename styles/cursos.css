@@ -38,14 +38,14 @@
     color: var(--color-tags-title-button-footer);
     font-size: 20px;
     font-weight: 800;
-    margin: 0.5em 0;
+    margin-bottom: 1em;
 }
 
 .card__curso p {
     color: var(--color-p);
     font-weight: 500;
     line-height: 26px;
-    margin: 0.5em 0;
+    margin: 1.5em 0;
 }
 
 .crad__link {
