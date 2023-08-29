@@ -1,7 +1,7 @@
-@import url(styles/header.css);
-@import url(styles/estatisticas-curso.css);
-@import url(styles/cursos.css);
-@import url(styles/rodape.css);
+@import url(header.css);
+@import url(estatisticas-curso.css);
+@import url(cursos.css);
+@import url(rodape.css);
 
 :root {
     --color-hover-button-header: #666CA3;
