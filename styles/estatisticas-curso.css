@@ -43,3 +43,12 @@
     font-weight: 800;
     color: var(--color-tags-title-button-footer);
 }
+
+@media screen and (min-width: 768px) {
+    .estatisticas {
+        background: url(../img/image-removebg-preview-tablet.svg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-right: 6em;
+    }
+}

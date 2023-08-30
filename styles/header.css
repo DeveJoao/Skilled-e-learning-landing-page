@@ -65,3 +65,19 @@
 .link__hero:hover {
     background: var(--color-gradiente-principal);
 }
+
+@media screen and (min-width: 768px) {
+    .container__tablet {
+        display: flex;
+        align-items: center;
+    }
+
+    .banner__titulo {
+        width: 80%;
+        margin: 1em 0 0.6em 0;
+    }
+
+    .banner__texto {
+        width: 80%;
+    }
+}
