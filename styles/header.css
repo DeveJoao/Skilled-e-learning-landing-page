@@ -63,13 +63,17 @@
 }
 
 .link__hero:hover {
-    background: var(--color-gradiente-principal);
+    background: var(--color-hover-botoao-hero);
 }
 
 @media screen and (min-width: 768px) {
-    .container__tablet {
+    .container__midia {
         display: flex;
         align-items: center;
+        margin-bottom: 4em;
+        background: url("../img/Rectangle.svg") no-repeat;
+        background-size: 40%;
+        background-position: right -7em;
     }
 
     .banner__titulo {
@@ -79,5 +83,39 @@
 
     .banner__texto {
         width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        padding: 1em 6.5em  ;
+    }
+
+    .cabecalho__titulo {
+        font-size: 36px;
+    }
+
+    .cabecalho__link {
+        font-size: 18px;
+    }
+
+    .container__midia {
+        padding: 0 6.5em;
+    }
+
+    .banner {
+        padding: 0;
+    }
+
+    .banner__titulo {
+        font-size: 56px;
+        width: 60%;
+    }
+
+    .banner__texto {
+        font-size: 18px;
+        width: 55%;
+        margin-bottom: 4em;
     }
 }

@@ -60,3 +60,36 @@
     position: relative;
     bottom: 50px;
 }
+
+@media screen and (min-width: 768px) {
+    .container-dos-cursos {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card__curso,
+    .card__chamada {
+        width: 339px;
+        height: 259px;
+        margin: 30px 10px;
+        padding: 10px;
+    }
+
+    .card__curso {
+        padding: 12px;
+    }
+
+    .card__curso__imagem {
+        bottom: 30px;
+        left: 20px;
+    }
+
+    .card__curso p {
+        width: 90%;
+    }
+
+    .card__chamada h2 {
+        padding-top: 32px;
+    }
+}
