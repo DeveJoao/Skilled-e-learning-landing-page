@@ -1,7 +1,7 @@
 # Skilled-e-learning-landing-page
 Esse design da pagina e de um exercício pratico do site do front-end mentor
 
-![image](https://user-images.githubusercontent.desing-da-pagina-do-projetor.png)
+<a href="https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q"><img src="img/desing-da-pagina-do-projetor.png" alt="desing da pagina"></a>
 
 ## Ferramentas utilizadas:
 
