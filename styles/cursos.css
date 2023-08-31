@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     font-family: var(--fonte-principal);
-    background: var(--color-gradiente-do-cards);
 }
 
 .card__curso,
@@ -48,7 +47,7 @@
     margin: 1.5em 0;
 }
 
-.crad__link {
+.card__link {
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
@@ -91,5 +90,29 @@
 
     .card__chamada h2 {
         padding-top: 32px;
+    }
+
+    .card__titulo,
+    .card__curso p,
+    .card__link {
+        padding-left: 1em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container-dos-cursos {
+        margin-bottom: 7em;
+    }
+
+    .card__chamada h2 {
+        font-size: 32px;
+        width: 90%;
+        padding-left: 0.5em;
+    }
+
+    .card__titulo,
+    .card__curso p,
+    .card__link {
+        padding-left: 1em;
     }
 }

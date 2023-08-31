@@ -22,6 +22,7 @@
 
 body {
     background: var(--color-barnco);
+    background: var(--color-gradiente-do-cards);
 }
 
 .links__button,

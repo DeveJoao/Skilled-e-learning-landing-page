@@ -89,7 +89,7 @@
 
 @media screen and (min-width: 1440px) {
     .cabecalho {
-        padding: 1em 6.5em  ;
+        padding: 1em 6.5em;
     }
 
     .cabecalho__titulo {
@@ -117,5 +117,10 @@
         font-size: 18px;
         width: 55%;
         margin-bottom: 4em;
+    }
+
+    .container__midia {
+        background-size: 30%;
+        background-position: right -200px;
     }
 }
